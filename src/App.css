@@ -1,0 +1,103 @@
+html, body {
+}
+
+body {
+  text-align: center;
+}
+
+.welcome-message {
+  font-size: 18px;
+  text-align: left;
+  padding: 30px;
+  color: white;
+  display: inline-block;
+  font-size: 30px;
+  float: left;
+  background-color: blue;
+}
+
+.bodiesIn {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 175px;
+
+}
+
+.bodiestr{
+  align-items: center;
+  text-align: center;
+  transition: all 0.1s ease-out;
+  border: 30px solid #fafafa;
+  box-shadow: 0 7px 30px rgb(224, 218, 218);
+}
+
+.bodies6{
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 200px;
+}
+
+.namebodies{
+margin-top: 25px;
+margin-bottom: 25px;
+font-size: 50px;
+margin-left: 300px;
+}
+
+.bodies7{
+color: rgb(243, 189, 13);
+margin-top: 35px;
+margin-bottom: 25px;
+font-size: 50px;
+
+}
+
+.bodies8{
+  font-size: 30px;
+  font-style: oblique;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.category{
+  float: left;
+  clear: left;
+  list-style: none;
+  padding: 10px;
+}
+
+.priceFilterStar{
+  float: left;
+  clear: left;
+  width: 120px;
+  height: 25px;
+}
+
+.priceFilter{
+  float: left;
+  clear: left;
+  width: 100px;
+  height: 25px;
+  margin-top: 10px;
+}
+
+
+.searchBarStar{
+  float: center;
+  height: 25px;
+  width: 400px;
+}
+
+
+.inside{
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.bodies2{
+  color: rgb(224, 159, 19);
+  font-size: 20px;
+}
